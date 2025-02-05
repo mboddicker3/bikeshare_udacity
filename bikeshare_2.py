@@ -93,7 +93,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+#This function def was also done by udacity
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
