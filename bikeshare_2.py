@@ -6,8 +6,10 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#list of possibilities used later in the code for searching, only done this way for small, contained project
 possible_months = ["january", "february", "march", "april", "may", "june", "all"]
 
+#list of possible days
 possible_days = ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
 def get_filters():
