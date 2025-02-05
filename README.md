@@ -14,4 +14,6 @@ README.md
 
 ### Credits
 Forked from udacity/pdsnd_github
+For more information, see udacity course on udacity.com
+
 
