@@ -12,6 +12,7 @@ possible_months = ["january", "february", "march", "april", "may", "june", "all"
 #list of possible days
 possible_days = ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
+# function was provided by udacity
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -94,7 +95,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+#This function def was also done by udacity
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
